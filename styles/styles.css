@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Reem kufi", 'Trebuchet MS';
+  font-size: 20px;
+  background-color: rgb(85, 79, 92);
+  color: bisque;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  
+}
+#introduction {
+  padding-top: 10px;
+}
+#small-header {
+  font-weight: 100;
+}
+.body-container {
+  display: flex;
+  align-items: ;
+}
+
+hr {
+  max-width: 400px;
+  margin-left: 30px;
+}
+
+.container {
+  padding: 25px;
+  max-width: 850px;
+  background-color: rgba(54, 53, 59, 0.0);
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+}
+.icons {
+  font-size: 50px;
+  color: bisque;
+}
+#full-name {
+  display: block;
+  font-size:70px;
+  margin: -10px -10px;
+}
+.icons-wrapper {
+  max-width: 600px;
+  padding: 15px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  font-family: Courier, monospace;
+  text-align: center;
+  padding: 30px;
+}
+
+.spline {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 680px) {
+  
+  #full-name, #small-header {
+    font-size: 40px;
+}
+.icons {
+  font-size: 35px;
+}
+.paragraph {
+  font-size: 10px;
+
+}
+}
+@media screen and (max-width: 390px) {
+#full-name, #small-header {
+    font-size:25px;
+}
+.icons {
+  font-size: 20px;
+}
+.paragraph {
+  font-size: 5px;
+
+}
+}
