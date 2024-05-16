@@ -22,8 +22,9 @@
 .content-container {
   position: absolute;
   z-index: 2;
-  top: 5rem;
-  left: 5rem;
+  top: 3rem;
+  left: 3rem;
+  pointer-events: none;
 }
 
 hr {
@@ -48,6 +49,9 @@ hr {
   font-size:70px;
   margin: -10px -10px;
 }
+.social-icon {
+  pointer-events: all;
+}
 .social-icons-wrapper {
   max-width: 600px;
   padding: 15px;
@@ -56,9 +60,8 @@ hr {
   flex-wrap: wrap;
 }
 .roles {
-  margin-bottom: 30px;
-
-
+  margin-top: 80px;
+  margin-bottom: 150px;
 }
 .role-paragraph {
   font-family: Courier, monospace;
